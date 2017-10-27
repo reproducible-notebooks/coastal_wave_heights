@@ -1,15 +1,18 @@
+name: waves
 channels:
   - conda-forge
   - defaults
 dependencies:
   - python=3.6
   - owslib
-  - lxml
   - pandas
   - iris
   - ioos_tools
+  - pyoos
+  - retrying
+  - geolinks
   - netcdf4
   - matplotlib
   - folium
   - bokeh
-  - np_conda_kernels
+  - nb_conda_kernels
